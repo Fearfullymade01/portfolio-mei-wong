@@ -23,6 +23,18 @@ h2 {
     border-radius: 0;
 }
 
+/* Buttons */
+
+.custom-button {
+    background-color: #1f7798; /* mid-blue */
+    border: #1f7798; /* mid-blue */
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a; /* slightly darker mid-blue */
+    border: #1d6d8a; /* slightly darker mid-blue */
+}
+
 /* About Section */
 
 #about {
@@ -57,7 +69,7 @@ h2 {
 
 #hero {
     background-color: #dbdcde; /* light grey */
-    background-image: url("..\images\portfolio-images\portfolio-images\background.webp");
+    background-image: url("assets\background.webp");
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
